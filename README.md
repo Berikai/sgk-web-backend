@@ -17,6 +17,10 @@ To initialize project you need to do
 - You need to migrate entities. That's why open the terminal in ./SGK_Web_Backend/SGK_Web_Backend and type
   
       dotnet ef migrations add <migration commit message>
+
+- If you want to apply the migration to the database, type below code in terminal
+
+      dotnet ef database update
     
 - Project is ready, you can check program with postman.
   
