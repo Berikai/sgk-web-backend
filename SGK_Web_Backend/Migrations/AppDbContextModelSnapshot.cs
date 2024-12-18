@@ -28,7 +28,19 @@ namespace SGK_Web_Backend.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("created_at")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ip_created_at")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ip_last")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -45,6 +57,14 @@ namespace SGK_Web_Backend.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("student_id")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("studied_department")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("studied_year")
                         .IsRequired()
                         .HasColumnType("text");
 

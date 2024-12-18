@@ -22,7 +22,12 @@ namespace SGK_Web_Backend.Migrations
                     password = table.Column<string>(type: "text", nullable: false),
                     name = table.Column<string>(type: "text", nullable: false),
                     surname = table.Column<string>(type: "text", nullable: false),
-                    phone_number = table.Column<string>(type: "text", nullable: false)
+                    phone_number = table.Column<string>(type: "text", nullable: false),
+                    studied_year = table.Column<string>(type: "text", nullable: false),
+                    studied_department = table.Column<string>(type: "text", nullable: false),
+                    created_at = table.Column<string>(type: "text", nullable: false),
+                    ip_created_at = table.Column<string>(type: "text", nullable: false),
+                    ip_last = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {

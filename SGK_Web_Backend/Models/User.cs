@@ -10,4 +10,9 @@ public class User
     public string name { get; set; }
     public string surname { get; set; }
     public string phone_number { get; set; }
+    public string studied_year { get; set; }
+    public string studied_department { get; set; }
+    public string created_at { get; set; }
+    public string ip_created_at { get; set; }
+    public string ip_last { get; set; }
 }
